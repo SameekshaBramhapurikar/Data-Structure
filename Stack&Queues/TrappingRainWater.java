@@ -33,7 +33,7 @@ class Solution {
                 {
                     rMax=height[r];
                 }
-                rMax=r-1;
+                r=r-1;
             }
         }
         return total;
