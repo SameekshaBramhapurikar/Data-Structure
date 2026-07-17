@@ -3,7 +3,7 @@
 class Solution {
     public int longestKSubstr(String s, int k) {
         int n=s.length();
-        int maxlen=0;
+        int maxlen=-1;
         int r=0;
         int l=0;
         Map<Character,Integer> map= new HashMap<>();
@@ -36,7 +36,7 @@ class Solution {
 class Solution {
     public int longestKSubstr(String s, int k) {
         int n=s.length();
-        int maxlen=0;
+        int maxlen=-1;
         int r=0;
         int l=0;
         Map<Character,Integer> map= new HashMap<>();
